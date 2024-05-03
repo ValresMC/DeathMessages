@@ -9,7 +9,7 @@ use pocketmine\utils\SingletonTrait;
 class Main extends PluginBase implements Listener
 {
     use SingletonTrait;
-    
+
     public function onEnable(): void {
         $this->getLogger()->info("by Valres est lancé.");
         $this->saveDefaultConfig();
